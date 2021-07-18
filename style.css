@@ -131,6 +131,7 @@ a{
 .fets{
   padding: 5% 0;
   gap: 30px;
+  align-items: flex-start;
 }
 
 .feature{
@@ -175,7 +176,7 @@ hr{
 .footer{
   background: var(--green);
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 10%;
 }
 .footer img{
   height: 30px;

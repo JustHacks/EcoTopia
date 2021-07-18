@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🚀 Reboot Rebels</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="camera.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <div class="header">
@@ -29,7 +30,7 @@
 
 <!-- start the important javascript -->
 <script type="text/javascript">
-    const URL = "https://teachablemachine.withgoogle.com/models/BDXIbF1HQ/";
+    const URL = "https://teachablemachine.withgoogle.com/models/cKCDnB9SN/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -71,20 +72,20 @@
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
 
-            if (prediction[0].probability.toFixed(2) > 0.9) {
+            if (prediction[0].probability.toFixed(2) > 0.98) {
 						document.getElementById("output-container").innerHTML =
 							"No items recognized";
 					}
 
-					if (prediction[1].probability.toFixed(2) > 0.9) {
-						window.open("#");
+					if (prediction[1].probability.toFixed(2) > 0.98) {
+						window.open("https://www.ecowatch.com/eco-friendly-water-bottles-2649345802.html");
 					}
 
-					if (prediction[2].probability.toFixed(2) > 0.9) {
-            window.open("#");
+					if (prediction[2].probability.toFixed(2) > 0.98) {setTimeout(function(){ window.open("https://www.tryingmebag.com/Non-woven-bag?gclid=Cj0KCQjw_8mHBhClARIsABfFgpjZhuMgkdSjHCR0vANDhW8Z5HXFNWn3S0nBnGgd2OYjffjpMDNzV7UaAuWCEALw_wcB"); }, 5000);
+            
 					}
 
-					if (prediction[3].probability.toFixed(2) > 0.9) {
+					if (prediction[3].probability.toFixed(2) > 0.98) {
 						document.getElementById("output-container").innerHTML = "You already used an environmental friendly item, great job!!";
 					}
     
