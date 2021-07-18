@@ -43,6 +43,7 @@ body{
 /* HEADER */
 
 .header{
+  width: 100%;
   display: flex;
   padding: 40px;
   flex-wrap: wrap;
@@ -67,12 +68,11 @@ li:hover{
 
 /* ABOUT */
 
-.about,.features {
+.about,.features,.ar {
   padding-left: 10%; 
   margin-top: 5em;
-  color: var(--lightpeach);
 }
-
+.about {color: var(--lightpeach);}
 .about p{max-width: 900px;}
 
 h1{font-size: 3.5rem;}
@@ -89,6 +89,10 @@ p{
   display: inline-block;
   font-weight: bold;
   cursor: pointer;
+}
+a{
+  color: var(--darkgreen);
+  text-decoration: none;
 }
 
 .btn:hover{
@@ -133,6 +137,41 @@ p{
   max-width: 400px;
 }
 
+/* CARDS */
+.cards{
+ gap: 20px;
+ justify-content: center;
+ margin: 5em auto;
+}
+
+hr{
+  width: 70%;
+  margin-left:20px;
+  color: var(--darkgreen);
+  }
+
+.card{
+  max-width: 400px;
+  height: 100%;
+  background: var(--green);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--white);
+}
+
+.card h2, .card p{
+  padding: 0 20px;
+}
+
+.cards .btn{
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+
 .footer{
   background: var(--green);
   justify-content: space-between;
@@ -142,6 +181,7 @@ p{
   height: 30px;
   padding: 0 10px;
 }
+
 /* Media Query */
 
 @media only screen and (min-width: 1500px) {
