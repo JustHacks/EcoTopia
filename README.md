@@ -33,9 +33,9 @@ We build it with Html, css and javascript, as well as tensorflow.js for the mach
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/"><img src="" width="100px;" alt=""/><br /><sub><b>Cyra Alesha</b></sub></a></td>
+    <td align="center"><a href="https://github.com/cyraalesha"><img src="" width="100px;" alt=""/><br /><sub><b>Cyra Alesha</b></sub></a></td>
     <td align="center"><a href="https://github.com/lilykhan786"><img src="https://avatars1.githubusercontent.com/u/47777673?s=460&u=b5531e40e1b9a31078e024f861116678fecaa826&v=4" width="100px;" alt=""/><br /><sub><b>Lily Khan</b></sub></a></td>
-        <td align="center"><a href="https://github.com/"><img src="" width="100px;" alt=""/><br /><sub><b>Harini Sri S</b></sub></a></td>
-        <td align="center"><a href="https://github.com/"><img src="" width="100px;" alt=""/><br /><sub><b>Reeva Khokhar</b></sub></a></td>
+        <td align="center"><a href="https://github.com/SHSEDHG"><img src="https://media.discordapp.net/attachments/857709079714594826/867366501463228436/SHSS.jpg" width="100px;" alt=""/><br /><sub><b>Harini Sri S</b></sub></a></td>
+        <td align="center"><a href="https://github.com/reevakhokhar"><img src="" width="100px;" alt=""/><br /><sub><b>Reeva Khokhar</b></sub></a></td>
   </tr>
 </table>
